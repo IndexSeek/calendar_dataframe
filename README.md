@@ -1,5 +1,3 @@
 # Calendar DataFrame Creation using Pandas.
 
-Easily create a DataFrame using USFederalHolidayCalendar and include gaps for future joins.
-
-This is mostly a reminder to myself to quickly be able to perform this operation without needing to check StackOverflow.
+Easily create a DataFrame using Pandas Holiday calendars and include gaps for future joins. This solution also offers an option to include additional date attributes for helping establish dimension tables or useful values for reporting. 
