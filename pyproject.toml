@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "calendf"
+version = "0.0.1"
+description = "Easily create DataFrame calendars."
+authors = ["B. Tyler White <50381805+IndexSeek@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.5.2"
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = "^22.12.0"}
+pre-commit = "^2.21.0"
+ipykernel = "^6.19.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
